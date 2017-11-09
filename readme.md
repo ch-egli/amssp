@@ -3,7 +3,7 @@
 
 echo '{"key":"key3","value":"value3"}' | curl -H "Content-Type: application/json" -d @- http://localhost:8080/singlekey
 
-**Get key to Redis:**
+**Get key from Redis:**
 
 curl localhost:8080/singlekey/key2
 
